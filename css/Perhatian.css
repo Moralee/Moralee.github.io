@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #00000000;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+@keyframes start {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+@keyframes altstart {
+    0% {
+      opacity: .5;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+body {
+    background-image:url(images/Disclaimer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: start 0.5s ease-in;
+}
+
+.Disclaimer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 100%;
+    animation: start 2s ease-in;
+    padding-top: 25vh;
+    width: 75%;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+p {
+    font-size: 16px;
+}
+
+li, li a, button{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: rgba(19,19,19, 0.75);
+    justify-content: flex-end;
+    align-items: center;
+    padding: 16px 5%;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.5);
+}
+
+.Logo {
+    font-family: "Montserrat", sans-serif;
+    margin-right: auto;
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    animation: start 1s ease-in;
+}
+
+.Navigation {
+    list-style: none;
+}
+
+.Navigation li {
+    display: inline-block;
+    padding: 0px 16px;
+}
+
+.Navigation li a {
+    animation: start 1s ease-in;
+    transition: all 0.3s ease 0s;
+    border: none;
+}
+
+.Navigation li a:hover {
+    transition: all 0.3s ease 0s;
+    color: #a3a3a3
+}
+
+button {
+    transition: all 0.3s ease 0s;
+    color: #fff;
+    padding: 4px 8px 5px;
+    border-radius: 24px;
+    border: none;
+    background: rgb(255, 111, 111)
+}
+button:hover {
+    transition: all 0.3s ease 0s;
+    color: rgb(255, 111, 111);
+    background-color: #fff;
+    border: none;
+}
+
+#DisclaimerP {
+    padding: 0 0 16px;
+}
+
+#DisclaimerN {
+    transition: all 0.3s ease 0s;
+    color: #a3a3a3;
+}
+
+#DisclaimerN:hover {
+    transition: all 0.3s ease 0s;
+    color: #ffffff;
+}
+
+#Instagram, #Discord {
+    transition: all .25s ease-in-out;
+    color: #a3a3a3;;
+    text-decoration: none;
+}
+
+#Instagram:hover, #Discord:hover {
+    transition: all .25s ease-in-out;
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+    .Logo {
+        font-size: 48px;
+        margin-right: auto;
+    }  
+    h1 {
+        font-size: 64px;
+    }
+    p {
+        font-size: 24px;
+    }
+    li, li a, button{
+      font-size: 14px;
+    }
+    .Disclaimer {
+        width: 75%;
+    }
+    button {
+        padding: 8px 16px 10px;
+    }
+    header {
+      justify-content: flex-end;
+      padding: 16px 7.5%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+  .Logo {
+      font-size: 48px;
+      margin-right: auto;
+  }  
+  h1 {
+      font-size: 64px;
+  }
+  p {
+      font-size: 24px;
+  }
+  li, li a, button{
+    font-size: 16px;
+  }
+  .Disclaimer {
+      width: 50%;
+  }
+  button {
+      padding: 8px 16px 10px;
+  }
+  header {
+    justify-content: flex-end;
+    padding: 16px 7.5%;
+  }
+}
+button {
+    transition: all 0.3s ease 0s;
+    margin-right: auto;
+    color: #fff;
+    padding: 8px 16px 10px;
+    border-radius: 24px;
+    border: none;
+    background: rgb(111, 145, 255)
+}
+button:hover {
+    transition: all 0.3s ease 0s;
+    color: rgb(111, 145, 255);
+    background-color: #fff;
+    border: none;
+}

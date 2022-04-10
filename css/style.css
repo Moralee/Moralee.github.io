@@ -133,6 +133,7 @@ header {
     color: rgb(255, 111, 111);
     background-color: #fff;
 }
+
 .Indonesian {
     text-decoration: none;
 }
@@ -153,10 +154,15 @@ header {
     color: rgb(111, 145, 255);
     background-color: #fff;
 }
+
 .English {
     text-decoration: none;
 }
 
+.About {
+    margin-top: 25vh;
+}
+   
 #AboutP {
     padding: 0 0 16px;
 }

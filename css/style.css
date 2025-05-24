@@ -49,7 +49,7 @@ body {
 }
 
 
-.Intro, .Projects, .About, .Contacts, .Disclaimer {
+.Intro, .Projects, .About {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -177,112 +177,6 @@ header {
     color: #ffffff;
 }
 
-.Contacts {
-    margin-top: 22.5vh;
-}
-
-#ContactsP {
-    padding: 0 0 16px;
-}
-
-.ContactsB #ContactsN {
-    transition: all 0.3s ease 0s;
-    color: #a3a3a3;
-}
-
-.ContactsB #ContactsN:hover {
-    transition: all 0.3s ease 0s;
-    color: #ffffff;
-}
-
-.Contacts ul {
-    list-style: none;
-}
-
-.Contacts ul li:not(:first-child) { 
-    margin-top: 12px;  
- }
-
- .Contacts ul li:first-child {
-    margin-top: 6px;  
- }
-
-#Discord, #Github, #Instagram {
-    text-decoration: none;
-    font-size: 16px;
-    color: #fff;
-    padding: 8px 16px 10px;
-    border-radius: 24px;
-    border: none;
-    display: inline-flex;
-    align-items: center; 
-}
-
-#Github {
-    transition: all 1.25s ease-in-out;
-    background-image: linear-gradient(to right, #797979, #5e5e5f, #444547, #2b2d30, #13171a);
-    background-size: 100%;
-    background-position: center;
-}
-
-#Github:hover {
-    transition: all 1.25s ease-in-out;
-    background-size: 500%;
-    background-position: right;
-}
-
-#Instagram {
-    transition: all 1.25s ease-in-out;
-    background-image: linear-gradient(to right, #4b64d9, #8657d0, #b045bf, #d02ca8, #e7058b);
-    background-size: 100%;
-    background-position: center;
-}
-
-#Instagram:hover {
-    transition: all 1.25s ease-in-out;
-    background-size: 500%;
-    background-position: right;
-}
-
-#Discord {
-    transition: all 1.25s ease-in-out;
-    background-image: linear-gradient(to right, #b9bfff, #9ca1ed, #7f85dc, #6268ca, #434db7);
-    background-size: 100%;
-    background-position: center;
-}
-
-#Discord:hover {
-    transition: all 1.25s ease-in-out;
-    background-size: 500%;
-    background-position: right;
-}
-
-#DisclaimerP {
-    padding-bottom: 8px;
-}
-
-.DisclaimerB #DisclaimerN {
-    transition: all 0.3s ease 0s;
-    color: #a3a3a3;
-}
-
-.DisclaimerB #DisclaimerN:hover {
-    transition: all 0.3s ease 0s;
-    color: #ffffff;
-}
-
-#InstagramA, #DiscordA {
-    transition: all .25s ease-in-out;
-    color: #a3a3a3;;
-    text-decoration: none;
-}
-
-#InstagramA:hover, #DiscordA:hover {
-    transition: all .25s ease-in-out;
-    color: #fff;
-    text-decoration: underline;
-}
-
 .ProjectsB #ProjectsN {
     transition: all 0.3s ease 0s;
     color: #a3a3a3;
@@ -352,16 +246,6 @@ header {
     .About {
         width: 50%;
     }
-    .Contacts ul li {
-        display: inline-block;
-        margin-top: 0px;
-    }
-    .Disclaimer {
-        width: 75%;
-    }
-    #Discord, #Github, #Instagram {
-        font-size: 24px;
-    }
     button {
         padding: 8px 16px 10px;
     }
@@ -396,17 +280,6 @@ header {
     }
   .About {
     width: 50%;
-    }
-    .Contacts {
-        width: 50%;
-    }
-  
-    .Contacts ul li {
-        display: inline-block;
-        margin-top: 0px;
-    }
-    .Disclaimer {
-        width: 50%;
     }
   button {
       padding: 8px 16px 10px;
